@@ -7,7 +7,7 @@ int main(){
    int n = s.size();
    int i = 0; int j = 0;
    for(int i = 0; i< n; i++){
-       if(s[i] == '0'){
+       if(s[i] == '0'){ // swap values
            s[j++] = '0';
            s[i] = '1';
        }
